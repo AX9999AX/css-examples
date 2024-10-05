@@ -1,3 +1,40 @@
-h1 {
-  color: red;
+/* wihout default style it doesn't work for some reasons */
+.visited-example {
+  a {
+    background-color: white;
+    border: 1px solid white;
+    outline: 1px solid white;
+    text-emphasis: filled white;
+  }
+}
+
+.visited-example-color {
+  a:visited {
+    color: red;
+  }
+}
+
+.visited-example-bg {
+  a:visited {
+    background-color: red;
+  }
+}
+
+.visited-example-border {
+  a:visited {
+    border-color: red;
+  }
+}
+
+.visited-example-outline {
+  a:visited {
+    outline-color: red;
+  }
+}
+
+.visited-example-text {
+  a:visited {
+    text-decoration-color: red;
+    text-emphasis-color: red;
+  }
 }
