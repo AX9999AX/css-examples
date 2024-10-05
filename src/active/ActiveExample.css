@@ -1,0 +1,35 @@
+.active-example-link {
+  a:active {
+    color: red;
+  }
+}
+
+.active-example-btn {
+  button:active {
+    background: red;
+  }
+}
+
+.active-example-input {
+  input:active {
+    background: red;
+  }
+}
+
+.active-example-textarea {
+  textarea:active {
+    background: red;
+  }
+}
+
+.active-example-select {
+  select:active {
+    background: red;
+  }
+}
+
+.active-example-h2 {
+  h2:active {
+    color: red;
+  }
+}
